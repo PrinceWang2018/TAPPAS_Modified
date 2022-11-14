@@ -1,0 +1,15 @@
+#java-jre install
+wget https://sdlc-esd.oracle.com/ESD6/JSCDL/jdk/8u251-b08/3d5a2bb8f8d4428bbe94aed7ec7ae784/jre-8u251-linux-x64.tar.gz?GroupName=JSC&FilePath=/ESD6/JSCDL/jdk/8u251-b08/3d5a2bb8f8d4428bbe94aed7ec7ae784/jre-8u251-linux-x64.tar.gz&BHost=javadl.sun.com&File=jre-8u251-linux-x64.tar.gz&AuthParam=1667442417_979dd5a47dee15024831a55d7b58fb41&ext=.gz
+wget https://download.oracle.com/otn/java/jdk/8u341-b10/424b9da4b48848379167015dcc250d8d/jre-8u341-linux-x64.tar.gz?AuthParam=1667441544_5d433f2891b59f1d1cb001ca0f517fe6
+
+tar -xvf ./jre-8u251-linux-x64.tar.gz 
+tar -xvf ./jre-8u341-linux-x64.tar.gz
+
+/home/wzx/BIG_REF/biosoft/tappAS/java8/jre1.8.0_251/bin/java
+/home/wzx/BIG_REF/biosoft/tappAS/java8/jre1.8.0_341/bin/java
+
+/home/wzx/BIG_REF/biosoft/tappAS/java8/jre1.8.0_251/bin/java -jar /home/wzx/BIG_REF/biosoft/tappAS/tappAS.jar
+
+
+
+/usr/bin/Rscript
